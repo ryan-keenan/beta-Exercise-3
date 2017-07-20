@@ -1,6 +1,6 @@
-# Object Recognition with ROS and PCL
+# Object Recognition with Python, ROS and PCL
 
-This exercise builds on what you've done in Exercises 1 and 2. Here you will continue building up your perception pipeline in ROS.  In this exercise, you are provided a very simple gazebo world, where you can extract color and shape features from the objects that were sitting on the table from Exercise-1 and Exercise-2, in order to train a classifier to detect them.
+This exercise builds on what you've done in Exercises 1 and 2. If you haven't done those yet, you should start by completing the [Lesson for Exercise-1](https://coco.udacity.com/nanodegrees/nd209/locale/en-us/versions/1.0.0/parts/322888/modules/330995/lessons/331000/concepts/335976) and the [Lesson for Exercise-2](https://coco.udacity.com/nanodegrees/nd209/locale/en-us/versions/1.0.0/parts/322888/modules/330995/lessons/331001/concepts/341836). Here you will continue building up your perception pipeline in ROS.  In this exercise, you are provided a very simple gazebo world, where you can extract color and shape features from the objects that were sitting on the table from Exercise-1 and Exercise-2, in order to train a classifier to detect them.
 
 
 ## Setup
