@@ -1,14 +1,12 @@
 # Object Recognition with ROS and PCL
 
-In this exercise you will continue building up your perception pipeline in ROS.  Here, you are provided a gazebo world, where you can extract color and shape features from the objects that were sitting on the table from Exercise-1 and Exercise-2.
+This exercise builds on what you've done in Exercises 1 and 2. Here you will continue building up your perception pipeline in ROS.  In this exercise, you are provided a very simple gazebo world, where you can extract color and shape features from the objects that were sitting on the table from Exercise-1 and Exercise-2, in order to train a classifier to detect them.
 
-For the detailed steps of how to carry out this exercise, please see the [Object Recognition]() lesson in the RoboND classroom.  
 
 ## Setup
-*  This exercise builds on what you've done in Exercises 1 and 2. If you're starting from scratch and you don't already have a `sensor_stick` folder in your `/src` directory, first copy/move the `sensor_stick` package to `/src` directory of your active ros workspace. If you have completed Exercises 1 and 2 and you already have a `sensor_stick` folder in the `/src` directory of your active ROS workspace, you can simply modify that folder by adding the following items from the `Exercise-3/sensor_stick` folder:
+* If you completed Exercises 1 and 2 you will already have a `sensor_stick` folder in your `~/catkin_ws/src` directory.  You should replace that folder with the `sensor_stick` folder contained in this repository and add the Python script you wrote for Exercise-2 to the `scripts` directory. 
 
- * All additional scripts from the `scripts` folder
- * All additional launch files from the `launch` folder
+* If you do not already have a `sensor_stick` directory, first copy/move the `sensor_stick` folder to the `~/catkin_ws/src` directory of your active ros workspace. 
 
 * Make sure you have all the dependencies resolved by using the `rosdep install` tool and running `catkin_make`:  
  
@@ -62,4 +60,6 @@ After that, you're ready to run the `train_svm.py` model to train an SVM classif
 $ rosrun sensor_stick train_svm.py
 ```
 
+## Classifying Segmented Objects
+Coming soon!
 
